@@ -1,0 +1,16 @@
+{
+	"time": "Zeit",
+	"break": "Pause",
+	"monday": "Montag",
+	"tuesday": "Dienstag",
+	"wednesday": "Mittwoch",
+	"thursday": "Donnerstag",
+	"friday": "Freitag",
+	"saturday": "Samstag",
+	"sunday": "Sonntag",
+	"subject": "Fach",
+	"teacher": "Lehrer",
+	"block": "Block",
+	"advanced_class": "Leistungskurs",
+	"basic_class": "Grundkurs"
+}

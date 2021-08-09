@@ -1,0 +1,16 @@
+{
+	"time": "Time",
+	"break": "Break",
+	"monday": "Monday",
+	"tuesday": "Tuesday",
+	"wednesday": "Wednesday",
+	"thursday": "Thursday",
+	"friday": "Friday",
+	"saturday": "Saturday",
+	"sunday": "Sunday",
+	"subject": "Subject",
+	"teacher": "Teacher",
+	"block": "Block",
+	"advanced_class": "Advanced Class",
+	"basic_class": "Basic Classs"
+}
