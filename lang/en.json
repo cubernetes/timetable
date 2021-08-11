@@ -1,4 +1,5 @@
 {
+	"class_ordinal": "Class",
 	"time": "Time",
 	"break": "Break",
 	"monday": "Monday",
@@ -12,5 +13,7 @@
 	"teacher": "Teacher",
 	"block": "Block",
 	"advanced_class": "Advanced Class",
-	"basic_class": "Basic Classs"
+	"basic_class": "Basic Classs",
+	"mr": "Mr.",
+	"ms": "Ms."
 }

@@ -1,4 +1,5 @@
 {
+	"class_ordinal": "Stunde",
 	"time": "Zeit",
 	"break": "Pause",
 	"monday": "Montag",
@@ -12,5 +13,7 @@
 	"teacher": "Lehrer",
 	"block": "Block",
 	"advanced_class": "Leistungskurs",
-	"basic_class": "Grundkurs"
+	"basic_class": "Grundkurs",
+	"mr": "Herr",
+	"ms": "Frau"
 }
