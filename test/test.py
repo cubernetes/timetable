@@ -40,3 +40,41 @@ myTimetable.append_row(["8",   (time(14,10), time(14,55)), 20, (seminarkurs, "22
 myTimetable.append_row(["9",   (time(15,15), time(16,0)),   0, None,                 musikschule,         None,                None,                 None                ])
 
 print(myTimetable.__str__(color=True), end="")
+
+"""
+┌──────┬──────────┐
+│ Fach │ Lehrer   │
+├──────┼──────────┤
+│ Deu  │ Schößler │
+│ Eng  │ Lehmann  │
+│ Ges  │ Buch     │
+│ Inf  │ Koch     │
+│ Mat  │ Nickel   │
+│ Mus  │ Krohs    │
+│ Phy  │ Wichert  │
+│ Psy  │ Schmidt  │
+│ SeK  │ Schmidt  │
+│ Spo  │ Richter  │
+└──────┴──────────┘
+
+┌───────┬───────────────┐
+│ Block │ Leistungskurs │
+├───────┼───────────────┤
+│ 1     │ Mat           │
+│ 2     │ Inf           │
+└───────┴───────────────┘
+
+┌───────┬───────────┐
+│ Block │ Grundkurs │
+├───────┼───────────┤
+│ 1     │ Deu       │
+│ 2     │ Mus       │
+│ 3     │ Sem       │
+│ 4     │ Ges       │
+│ 5     │ Spo       │
+│ 6     │ Frei      │
+│ 7     │ Psy       │
+│ 8     │ Phy       │
+│ 9     │ Eng       │
+└───────┴───────────┘
+"""

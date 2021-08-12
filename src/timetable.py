@@ -120,43 +120,6 @@ class Timetable(Table):
 			return string_table
 		else:
 			return re.sub(r"\x1b\[.*?m", "", string_table)
-		return """
-┌──────┬──────────┐
-│ Fach │ Lehrer   │
-├──────┼──────────┤
-│ Deu  │ Schößler │
-│ Eng  │ Lehmann  │
-│ Ges  │ Buch     │
-│ Inf  │ Koch     │
-│ Mat  │ Nickel   │
-│ Mus  │ Krohs    │
-│ Phy  │ Wichert  │
-│ Psy  │ Schmidt  │
-│ SeK  │ Schmidt  │
-│ Spo  │ Richter  │
-└──────┴──────────┘
-
-┌───────┬───────────────┐
-│ Block │ Leistungskurs │
-├───────┼───────────────┤
-│ 1     │ Mat           │
-│ 2     │ Inf           │
-└───────┴───────────────┘
-
-┌───────┬───────────┐
-│ Block │ Grundkurs │
-├───────┼───────────┤
-│ 1     │ Deu       │
-│ 2     │ Mus       │
-│ 3     │ Sem       │
-│ 4     │ Ges       │
-│ 5     │ Spo       │
-│ 6     │ Frei      │
-│ 7     │ Psy       │
-│ 8     │ Phy       │
-│ 9     │ Eng       │
-└───────┴───────────┘
-"""
 	def is_time_between(self, begin_time, end_time, check_time=None):
 		# If check time is not given, default to current UTC time
 		check_time = check_time or datetime.now().time()
